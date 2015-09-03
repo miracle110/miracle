@@ -1,0 +1,205 @@
+@charset "utf-8";
+/*animation for 800width nav button*/
+@keyframes menuicon1 {
+ 0% {
+ transform: translateY(0px);
+}
+ 40% {
+ transform: translateY(10px);
+}
+ 60% {
+ transform: translateY(10px) rotateZ(0deg);
+}
+ 100% {
+ transform: translateY(10px) rotateZ(45deg);
+}
+}
+@-webkit-keyframes menuicon1 {
+ 0% {
+ -webkit-transform: translateY(0px);
+}
+ 40% {
+ -webkit-transform: translateY(10px);
+}
+ 60% {
+ -webkit-transform: translateY(10px) rotateZ(0deg);
+}
+ 100% {
+ -webkit-transform: translateY(10px) rotateZ(45deg);
+}
+}
+@keyframes menuicon2 {
+ 0% {
+ transform: rotateZ(0deg);
+}
+ 40% {
+ transform: rotateZ(0deg);
+}
+ 60% {
+ transform: rotateZ(0deg);
+ opacity: 100%
+}
+ 100% {
+ transform: rotateZ(-45deg);
+ opacity: 0%;
+}
+}
+@-webkit-keyframes menuicon2 {
+ 0% {
+ -webkit-transform: rotateZ(0deg);
+}
+ 40% {
+ -webkit-transform: rotateZ(0deg);
+}
+ 60% {
+ -webkit-transform: rotateZ(0deg);
+ opacity: 100%
+}
+ 100% {
+ -webkit-transform: rotateZ(-45deg);
+ opacity: 0%;
+}
+}
+@keyframes menuicon3 {
+ 0% {
+ transform: translateY(0px);
+}
+ 40% {
+ transform: translateY(-10px);
+}
+ 60% {
+ transform: translateY(-10px) rotateZ(0deg);
+}
+ 100% {
+ transform: translateY(-10px) rotateZ(-45deg);
+}
+}
+@-webkit-keyframes menuicon3 {
+ 0% {
+ -webkit-transform: translateY(0px);
+}
+ 40% {
+ -webkit-transform: translateY(-10px);
+}
+ 60% {
+ -webkit-transform: translateY(-10px) rotateZ(0deg);
+}
+ 100% {
+ -webkit-transform: translateY(-10px) rotateZ(-45deg);
+}
+}
+
+
+/*main nav down*/
+@keyframes mainNavDown {
+	0% {
+		top: -100%;
+		opacity: 0.5;
+	}
+	100% {
+		top: 0px;
+		opacity: 1;
+	}
+}
+@-moz-keyframes mainNavDown {
+	0% {
+		top: -100%;
+		opacity: 0.5;
+	}
+	100% {
+		top: 0px;
+		opacity: 1;
+	}
+}
+@-webkit-keyframes mainNavDown {
+	0% {
+		top: -100%;
+		opacity: 0.5;
+	}
+	100% {
+		top: 0px;
+		opacity: 1;
+	}
+}
+
+
+
+/*main banner down*/
+@keyframes mainBannerDown {
+	0% {
+		top: -50px;
+		opacity: 0;
+	}
+	100% {
+		top: 0px;
+		opacity: 1;
+	}
+}
+@-moz-keyframes mainBannerDown {
+	0% {
+		top: -50px;
+		opacity: 0;
+	}
+	100% {
+		top: 0px;
+		opacity: 1;
+	}
+}
+@-webkit-keyframes mainBannerDown {
+	0% {
+		top: -50px;
+		opacity: 0;
+	}
+	100% {
+		top: 0px;
+		opacity: 1;
+	}
+}
+
+/*londing animation*/
+@keyframes londingAnimation {
+	0% {
+		background-position: left center;
+	}
+	100% {
+		background-position: right center;
+	}
+}
+@-moz-keyframes londingAnimation {
+	0% {
+		background-position: left center;
+	}
+	100% {
+		background-position: right center;
+	}
+}
+@-webkit-keyframes londingAnimation {
+	0% {
+		background-position: left center;
+	}
+	100% {
+		background-position: right center;
+	}
+}
+
+@keyframes londingWait {
+	0% {
+		opacity: 0;}
+	100% {
+		opacity: 1;
+	}	
+}
+@-moz-keyframes londingWait {
+	0% {
+		opacity: 0;}
+	100% {
+		opacity: 1;
+	}	
+}
+@-webkit-keyframes londingWait {
+	0% {
+		opacity: 0;}
+	100% {
+		opacity: 1;
+	}	
+}

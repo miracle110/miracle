@@ -1,0 +1,132 @@
+[ 2015-08-19T20:18:23+08:00 ] 127.0.0.1 /css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+ERR: 无法加载模块:Css
+
+[ 2015-08-19T20:18:23+08:00 ] 127.0.0.1 /loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+ERR: 无法加载模块:Loading
+
+[ 2015-08-19T20:18:23+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-08-19T20:18:56+08:00 ] 127.0.0.1 /css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+ERR: 无法加载模块:Css
+
+[ 2015-08-19T20:18:56+08:00 ] 127.0.0.1 /m=Home&c=Registered&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载模块:M=Home&c=Registered&a=ajax
+
+[ 2015-08-19T20:18:56+08:00 ] 127.0.0.1 /loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+ERR: 无法加载模块:Loading
+
+[ 2015-08-19T20:18:56+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-08-19T20:19:03+08:00 ] 127.0.0.1 /css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+ERR: 无法加载模块:Css
+
+[ 2015-08-19T20:19:03+08:00 ] 127.0.0.1 /m=Home&c=Registered&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 无法加载模块:M=Home&c=Registered&a=ajax
+
+[ 2015-08-19T20:19:03+08:00 ] 127.0.0.1 /loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+ERR: 无法加载模块:Loading
+
+[ 2015-08-19T20:19:57+08:00 ] 127.0.0.1 /css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:Css
+
+[ 2015-08-19T20:20:04+08:00 ] 127.0.0.1 /css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+ERR: 无法加载模块:Css
+
+[ 2015-08-19T20:20:04+08:00 ] 127.0.0.1 /browserconfig.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载模块:Browserconfig
+
+[ 2015-08-19T20:20:26+08:00 ] 127.0.0.1 /css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: 无法加载模块:Css
+
+[ 2015-08-19T20:20:26+08:00 ] 127.0.0.1 /m=Home&c=Registered&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+ERR: 无法加载模块:M=Home&c=Registered&a=ajax
+
+[ 2015-08-19T20:20:26+08:00 ] 127.0.0.1 /loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+ERR: 无法加载模块:Loading
+
+[ 2015-08-19T20:21:27+08:00 ] 127.0.0.1 /css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+ERR: 无法加载模块:Css
+
+[ 2015-08-19T20:21:28+08:00 ] 127.0.0.1 /loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载模块:Loading
+
+[ 2015-08-19T20:22:03+08:00 ] 127.0.0.1 /css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Css
+
+[ 2015-08-19T20:22:03+08:00 ] 127.0.0.1 /loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:Loading
+
+[ 2015-08-19T20:22:17+08:00 ] 127.0.0.1 /loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+ERR: 无法加载模块:Loading
+
+[ 2015-08-19T20:22:37+08:00 ] 127.0.0.1 /loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+ERR: 无法加载模块:Loading
+

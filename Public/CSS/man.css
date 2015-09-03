@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+#body {width:100%;height:100%;  }
+#title {height:60px;width:100%;background:url(__PUBLIC__/image/header.gif) bottom repeat-x;font: 12px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif }
+#logo {height: 60px;width: 120px;margin-left: 40px;float: left;}
+#center{height: 60px;width: 800px;float: left; border: 1px solid #000}
+#right{height: 60px;width: 100%; border: 1px solid #000}
+
+

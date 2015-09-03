@@ -1,0 +1,179 @@
+[ 2015-09-03T20:32:17+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.454314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.454446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001578s ]
+
+[ 2015-09-03T20:32:17+08:00 ] 127.0.0.1 /admin?m=admin&c=Index&a=code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002359s ]
+
+[ 2015-09-03T20:32:36+08:00 ] 127.0.0.1 /admin?m=admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'speech.admin' doesn't exist
+
+[ 2015-09-03T20:33:34+08:00 ] 127.0.0.1 /admin?m=admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+
+[ 2015-09-03T20:33:37+08:00 ] 127.0.0.1 /admin?m=admin&c=Index&a=code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2015-09-03T20:33:46+08:00 ] 127.0.0.1 /admin?m=admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `miracle_admin` [ RunTime:0.2833s ]
+SQL: SELECT * FROM `miracle_admin` WHERE `user` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `miracle_admin` SET `ip`='127.0.0.1',`num`='73',`lascreate_time`='1441283626' WHERE ( id=1 ) [ RunTime:0.0673s ]
+
+[ 2015-09-03T20:33:47+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=login&m=admin&c=Main&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `miracle_web_config` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `miracle_web_config` WHERE (  type="menu" and id2 is null )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: menu E:\xampp\htdocs\yiye\Application\Admin\Controller\MainController.class.php 第 9 行.
+SQL: SELECT * FROM `miracle_web_config` WHERE ( type="menu" and id2=1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: config E:\xampp\htdocs\yiye\Application\Runtime\Cache\Admin\ceb25a752d454a3315706634952427db.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.319336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.319407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2015-09-03T20:34:06+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=login&m=admin&c=Main&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `miracle_web_config` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `miracle_web_config` WHERE (  type="menu" and id2 is null )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: menu E:\xampp\htdocs\yiye\Application\Admin\Controller\MainController.class.php 第 9 行.
+SQL: SELECT * FROM `miracle_web_config` WHERE ( type="menu" and id2=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined variable: config E:\xampp\htdocs\yiye\Application\Runtime\Cache\Admin\ceb25a752d454a3315706634952427db.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2015-09-03T20:34:15+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=login&m=admin&c=Main&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `miracle_web_config` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `miracle_web_config` WHERE (  type="menu" and id2 is null )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: menu E:\xampp\htdocs\yiye\Application\Admin\Controller\MainController.class.php 第 9 行.
+SQL: SELECT * FROM `miracle_web_config` WHERE ( type="menu" and id2=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: config E:\xampp\htdocs\yiye\Application\Runtime\Cache\Admin\ceb25a752d454a3315706634952427db.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2015-09-03T20:38:08+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=login&m=admin&c=Main&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `miracle_web_config` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `miracle_web_config` WHERE (  type="menu" and id2 is null )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: menu E:\xampp\htdocs\yiye\Application\Admin\Controller\MainController.class.php 第 9 行.
+SQL: SELECT * FROM `miracle_web_config` WHERE ( type="menu" and id2=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: config E:\xampp\htdocs\yiye\Application\Runtime\Cache\Admin\ceb25a752d454a3315706634952427db.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+

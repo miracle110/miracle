@@ -1,0 +1,18 @@
+[ 2015-07-28T23:08:24+08:00 ] 127.0.0.1 /?m=Home&c=Config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008443s ]
+ERR: 无法加载控制器:Config
+
+[ 2015-07-28T23:08:56+08:00 ] 127.0.0.1 /index.php?m=Home&c=Config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Config
+

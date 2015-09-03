@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+#body
+{
+    width:100%;
+    height:100%;}
+#title
+{
+    width:100%;
+    height:50px;}
+#left
+{
+    height:100%;
+    width:200px;
+    float:left;}
+#right
+{
+    width:100%-200px;
+    height:100%;
+    float:left;}
+#logo
+{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    font-family: "microsoft yahei", arial, sans-serif;
+    color: burlywood;
+    float: left;
+}
+#add
+{
+    width: 300px;
+    height: 30px;
+}
+.a
+{
+    background-color:#FFFFFF;
+    font-size: 18px;
+    color: coral;
+    border: 0;
+}
+#kong
+{
+    width: 100%;
+    height: 50px;
+}
+#seo
+{
+    width: 100%;
+    height: 100%;
+}

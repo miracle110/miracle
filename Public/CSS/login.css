@@ -1,0 +1,76 @@
+#body{
+    width: 100%;
+    height: 100%;
+    /*text-align: center;*/
+    /*margin: auto;*/
+}
+#zone{
+    width: 400px;
+    height: 400px;
+    padding-left: 500px;
+    padding-top: 200px;
+    /*text-align: center;*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*margin-left: -250%;*/
+    /*margin-top: -150%;*/
+
+    /*margin: auto;*/
+
+    /*text-decoration: inherit;*/
+}
+.text
+{
+    width: 100px;
+    text-align: left;
+    height: 20px;
+}
+.table
+{
+    text-align: center;
+    /*margin-top: 15px;*/
+    /*margin-bottom: 15px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+}
+.text1
+{
+    width: 250px;
+    height: 20px;
+
+
+}
+.dg
+{
+    width: 100px;
+    height: 50px;
+    letter-spacing: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+#title
+{
+    width: 100%;
+    height: 50px;
+}
+#left
+{
+    width: 200px;
+    height: 48px;
+    float: right;
+
+}
+#right
+{
+    width: 200px;
+    height: 48px;
+    /*float: right;*/
+}
+#daohang
+{
+    width: 100%;
+    height: 30px;
+
+}

@@ -1,0 +1,19 @@
+<?php
+return array(
+	//'配置项'=>'配置值'
+    'logo'=>array(
+    'index'=>'首页',
+    'member'=>'会员',
+    'photo'=>'照片/视频',
+    'make'=>'交友',
+    'authentication'=>'实名认证',
+    'journal'=>'日志管理',
+    'appointments'=>'约会管理',
+    'love'=>'爱情管理',
+    'successStories'=>'成功故事',
+    'circle'=>'圈子管理',
+    'gift'=>'礼物管理',
+    'informationDelivery'=>'信息发布',
+    'comprehensive'=>'综合管理',
+    ),
+);
